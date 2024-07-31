@@ -64,7 +64,7 @@ auth = dash_auth.BasicAuth(
     VALID_USERNAME_PASSWORD_PAIRS
 )
 
-
+# Test folder
 sidebar = html.Div([
     html.Br(),
     html.H3("Sidebar", className="text-center fw-bold fs-2"),
