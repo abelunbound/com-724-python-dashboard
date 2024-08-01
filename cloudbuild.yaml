@@ -5,7 +5,7 @@ steps:
       - 'deploy'
       - '--quiet'
     id: Deploy to App Engine
-    dir: 'com-724-python-dashboard'  # Replace 'app' with the directory where your app.yaml is located
+    #dir: 'com-724-python-dashboard'  # Replace 'app' with the directory where your app.yaml is located
 options:
   logging: 'CLOUD_LOGGING_ONLY'
 
