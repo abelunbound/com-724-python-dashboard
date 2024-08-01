@@ -73,7 +73,7 @@ sidebar = html.Div([
 
 main_content = html.Div([
     html.Br(),
-    html.H2("SOLigence Trading Platform", className="text-center fw-bold fs-1"),
+    html.H2("SOLigence - continous deployment", className="text-center fw-bold fs-1"),
     html.Div([
         dcc.Graph(id="histogram", className="col-5"),
         dcc.Graph(id="scatter_chart", className="col-5")

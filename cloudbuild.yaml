@@ -1,0 +1,10 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'app'
+      - 'deploy'
+      - '--quiet'
+    id: Deploy to App Engine
+    dir: 'com-724-python-dashboard'  # Replace 'app' with the directory where your app.yaml is located
+
+timeout: '1200s'  # Adjust the timeout as needed
